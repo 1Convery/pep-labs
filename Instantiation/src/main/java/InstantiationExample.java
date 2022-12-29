@@ -17,7 +17,9 @@ public class InstantiationExample {
      *
      * @return any object.
      */
+    public class rocks {}
+    
     public Object instantiateANewObject(){
-        return null;
+        return new rocks();
     }
 }
