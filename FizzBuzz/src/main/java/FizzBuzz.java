@@ -17,10 +17,11 @@ public class FizzBuzz {
     public String FizzBuzzGen(int n){
         String x = "";
         if(n%3==0){
-            x = ""
+            x = "Fizz";
         }
-        
-        
-        return "";
+        if(n%5==0){
+            x = x + "Buzz";
+        }
+        return x;
     }
 }
