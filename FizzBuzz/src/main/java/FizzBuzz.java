@@ -15,6 +15,12 @@ public class FizzBuzz {
      * divisible by both, return 'FizzBuzz'. If none of these are true, return a blank string "".
      */
     public String FizzBuzzGen(int n){
+        String x = "";
+        if(n%3==0){
+            x = ""
+        }
+        
+        
         return "";
     }
 }
