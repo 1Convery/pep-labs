@@ -20,9 +20,3 @@ public class ExceptionChallenge {
         throw new ExceptionClass("Exception!");
     }
 }
-
-class ExceptionClass extends Exception{
-    ExceptionClass(String message){
-        super(message);
-    }
-}
